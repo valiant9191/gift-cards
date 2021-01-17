@@ -1,88 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-
-*{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    /* border: 1px solid;
+* {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid;
     border-color: blue; */
-    font-family: 'Italianno', /*cursive*/;
-    font-size: 35px;
+  font-family: "Italianno", /*cursive*/;
+  font-size: 25px;
+  margin: 0%;
+  padding: 0%;
+
 }
-title{
-    padding-top: 20px;
+body{
+    background-image: url(https://i.gifer.com/1jxj.gif);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
-.card-image{
-    display: block;
-    width: auto;
-    max-height: 30vw;
-    object-fit: cover;
-    position: relative;
+title {
+  padding-top: 20px;
+  color: blue;
 }
-.gift-message{
-    font-family: 'Italianno', cursive;  
-    /* background-color: rgba(255, 255, 255, 0.658);   */
-    padding: 10px;
+p{
+    margin: 5px;
+}
+.button{
+    border-radius: 10%;
+    border: chartreuse solid 1.5px;
+    background: rgb(209,255,244);
+    background: radial-gradient(circle, rgba(209,255,244,1) 0%, rgba(0,212,255,1) 100%);
+}
+.text{
+    color:rgb(255, 240, 127);
+    text-shadow: 0 -1px 4px #fff, 0 -2px 10px rgb(0, 179, 255), 0 -10px 20px #dff5f7,
+    0 -18px 40px rgb(240, 240, 240);
+}
+.card-image {
+  display: block;
+  width: 70vw;
+  max-height: 30vw;
+  min-height: 350px;
+  object-fit: cover;
+  position: relative;
+}
+.gift-message {
+  font-family: "Italianno", cursive;
+  /* background-color: rgba(255, 255, 255, 0.658);   */
+  padding: 10px;
 }
 .message {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-    font-size: 200%;
-    color:azure;
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  font-size: 200%;
+  color: azure;
+  text-shadow: 0 -1px 4px #fff, 0 -2px 10px #ff0, 0 -10px 20px #ff8000,
+    0 -18px 40px #f00;
 }
-.background-input{
-          display: flex;
-          flex-direction: row;
+.background-input {
+  display: flex;
+  flex-direction: row;
 }
 
-.color1{
-    background-color:black;
-        width: 50px;
-    height: 50px;
-    border: aquamarine solid 3px; 
-    margin: 10px;
-    border-radius: 30%;   
-}
-.color2{
-    background-color:tomato;
-    width: 50px;
-    height: 50px;   
-    border: aquamarine solid 3px; 
-    margin: 10px; 
-    border-radius: 30%;   
-
-}
-.color3{
-    background-color:green;
-        width: 50px;
-    height: 50px;  
-    border: aquamarine solid 3px; 
-    margin: 10px;  
-    border-radius: 30%;   
-
-}
-.color4{
-    background-color:blue;
-        width: 50px;
-    height: 50px;  
-    border: aquamarine solid 3px; 
-    margin: 10px; 
-    border-radius: 30%;   
- 
-}
-.color5{
-    background-color:white;
-        width:50px;
-    height: 50px;    
-    border: aquamarine solid 3px; 
-    margin: 10px;
-    border-radius: 30%;   
+.color1 {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border: aquamarine solid 3px;
+  margin: 10px;
+  border-radius: 50%;
   
 }
+.color1:hover{
+    transform:scale(1.1)
+}
+.color2 {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border: aquamarine solid 3px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.color2:hover{
+    transform:scale(1.1)
+}
+.color3 {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border: aquamarine solid 3px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.color3:hover{
+    transform:scale(1.1)
+}
+.color4 {
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+  border: aquamarine solid 3px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.color4:hover{
+    transform:scale(1.1)
+}
+.color5 {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: aquamarine solid 3px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.color5:hover{
+    transform:scale(1.1)
+}
+.background1 {
+  background-image: url(https://www.kingsarmsstow.co.uk/wp-content/uploads/2016/08/christmas-bg-1.jpg);
+  width: 100px;
+  height: 100px;
+  border: rgb(255, 157, 127) solid 3px;
+  margin: 10px;
+  border-radius: 30%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.background2 {
+    background-image: url(https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOM5-ACE-BLUE-BU-D-545594C7596E62/1571039484993_0..jpg);
+    width: 100px;
+    height: 100px;
+    border: rgb(255, 157, 127) solid 3px;
+    margin: 10px;
+    border-radius: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .background3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1iGrlyuPfl7rO30f7Qcd3Ifb09MhlvnAJRQ&usqp=CAU);
+    width: 100px;
+    height: 100px;
+    border: rgb(255, 157, 127) solid 3px;
+    margin: 10px;
+    border-radius: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .background4 {
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/2498af39-762c-40e0-af7f-bba011837808/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=694b00940ac1cb575a279d16e72f798c);
+    width: 100px;
+    height: 100px;
+    border: rgb(255, 157, 127) solid 3px;
+    margin: 10px;
+    border-radius: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .background5 {
+    background-image: url(https://belairlions.org/wp-content/uploads/2017/06/christmas-bg-2.jpg);
+    width: 100px;
+    height: 100px;
+    border: rgb(255, 157, 127) solid 3px;
+    margin: 10px;
+    border-radius: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+        
