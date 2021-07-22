@@ -16,6 +16,9 @@ const fontColor3=document.querySelector('.color3');
 const fontColor4=document.querySelector('.color4');
 const fontColor5=document.querySelector('.color5');
 
+const arraySelector= ['color1','color2','color3','color4','color5']
+const newArray=arraySelector.map((i)=>{`<div class=.'${i}'/>`})
+newArray.appendChild
 
 
 const message=document.querySelector('.message')
